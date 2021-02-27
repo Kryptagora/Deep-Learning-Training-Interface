@@ -24,6 +24,7 @@ This window functions as console and gives some information about the Status and
 In this section you will see **two** graphs. The upper graph shows the loss in a more local manner, while the lower one shows the loss in the entire training span. In the DefaultCNN, the **cross-entrophy-loss** is used:
 
 ![equation](https://latex.codecogs.com/svg.latex?%5Clarge%20H%28p%2Cq%29%20%3D%20-%5Csum_%7B%5Cforall%20x%7D%20p%28x%29%20%5Clog%28q%28x%29%29)
+
 ### Draw and Predict :pencil2:
 Now its time to test your model! Select one of the models from the drop-down menu, draw a Number/Letter and click on the `predict` button. You will see you predicted label under the drawing field. Note that however, the predictions are somewhat bad for most models, beacuse the model most likely overfitts on the (E)MNIST dataset.
 
